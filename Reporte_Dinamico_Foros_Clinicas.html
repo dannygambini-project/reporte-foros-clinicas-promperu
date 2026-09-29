@@ -3792,6 +3792,7 @@ Permisos y logística para exportar casas de madera</td>
       document.getElementById('fCat').value = 'ALL';
       if (document.getElementById('fPrioRuedas')) document.getElementById('fPrioRuedas').value = 'ALL';
       if (document.getElementById('fPromo')) document.getElementById('fPromo').value = 'ALL';
+      if (document.getElementById('fNuevasActividades')) document.getElementById('fNuevasActividades').value = 'ALL';
       document.getElementById('txtSearchEmpresa').value = '';
       activeSelectedRegion = 'ALL';
       if(document.getElementById('txtDbSearch')) document.getElementById('txtDbSearch').value = '';
@@ -4389,6 +4390,7 @@ Permisos y logística para exportar casas de madera</td>
         "Pilares Demandados",
         "Pilares Coincidentes",
         "Ratio Alineacion Match (%)",
+        "Nueva Foros Clinicas Networking",
         "Candidata Ruedas",
         "Diagnostico Exportador",
         "Estrategia Asignada",
@@ -4459,7 +4461,7 @@ Permisos y logística para exportar casas de madera</td>
           ${c.grupo} ${c.tipo_evento} ${c.dinamica} ${c.contacto} ${c.categoria_2025}
           ${c.principal_producto} ${c.principal_mercado} ${c.diagnostico} ${c.estrategia}
           ${c.accion} ${c.pilares_atendidos ? c.pilares_atendidos.join(' ') : ''}
-          ${c.requerimientos_textos ? c.requerimientos_textos.join(' ') : ''}
+          ${c.requerimientos_textos ? c.requerimientos_textos.join(' ') : ''} ${c.nueva_actividades ? 'NUEVA SI' : 'NO'}
         `);
         return fullStr.includes(term);
       });
@@ -4717,6 +4719,7 @@ Permisos y logística para exportar casas de madera</td>
         "Ultimo Ano Promocion",
         "Historial Anos Promocion",
         "Alineacion Necesidad vs Ruta (%)",
+        "Nueva Foros Clinicas Networking",
         "Candidata Ruedas",
         "Estrategia Asignada",
         "Accion Recomendada"
