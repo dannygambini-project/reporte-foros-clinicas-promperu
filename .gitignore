@@ -1,5 +1,16 @@
-# Archivos pesados originales de respaldo
+﻿# Datos masivos de origen (conservados localmente)
 ATENCIONES RUTA A SEPTIEMBRE 2026/
-EXPORTACIONES 2025.xlsx
+EXPORTACIONES SUNAT 2025/
+FECHAS DE LOS FOROS Y CLÍNICAS/
+REGISTRO DE LOS FOROS Y CLÍNICAS/
+TEST HISTORICO 2026/
+PROMOCIÓN/
+BD EMPRESAS CATEGORIZADAS AL 2025.xlsx
+EMPRESAS DE LA CLÍNICA CAÑETE.xlsx
+CLÍNICAS LOS OLIVOS, PARQUE ASESOR Y OTROS.xlsx
+SAN MARTÍN, LIMA, HICLAYO Y TACNA.xlsx
+
+# Logs y scratch
 *.log
 scratch/
+.system_generated/
